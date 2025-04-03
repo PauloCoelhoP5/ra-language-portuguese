@@ -10,8 +10,8 @@ This package includes additional translations tailored for internal usage, combi
 ## Installation
 
 ```bash
-yarn add @paulocoelho/ra-language-portuguese-pt
+yarn add @acmp5/ra-language-portuguese-pt
 
 # or
 
-npm install @paulocoelho/ra-language-portuguese-pt
+npm install @acmp5/ra-language-portuguese-pt

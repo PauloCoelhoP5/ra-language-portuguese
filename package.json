@@ -1,7 +1,7 @@
 {
-  "name": "@paulocoelho/ra-language-portuguese-pt",
+  "name": "@acmp5/ra-language-portuguese-pt",
   "description": "Customized Portuguese translations for react-admin, forked from the original package by Henriko Alberton",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -19,7 +19,7 @@
     "custom",
     "admin-on-rest"
   ],
-  "author": "Paulo Coelho <paulo.coelho@p5.pt>"
+  "author": "Paulo Coelho <paulo.coelho@p5.pt>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/PauloCoelhoP5/ra-language-portuguese/issues"
