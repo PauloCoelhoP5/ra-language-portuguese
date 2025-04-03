@@ -2,7 +2,10 @@
 
 Customized Portuguese translations for [react-admin](https://github.com/marmelab/react-admin), the frontend framework for building admin applications on top of REST services.
 
-This package includes custom translation additions for internal use, based on the original [ra-language-portuguese](https://github.com/henriko202/ra-language-portuguese) by Henriko Alberton.
+This package includes additional translations tailored for internal usage, combining and adapting translations from two original sources:
+
+- [henriko202/ra-language-portuguese](https://github.com/henriko202/ra-language-portuguese)
+- [gucarletto/ra-language-pt-br](https://github.com/gucarletto/ra-language-pt-br)
 
 ## Installation
 
