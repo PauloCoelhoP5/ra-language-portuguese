@@ -1,34 +1,14 @@
-# Portuguese Translations for react-admin
+# Portuguese Translations for react-admin (Custom Fork)
 
-Portuguese translations for [react-admin](https://github.com/marmelab/react-admin), the frontend framework for building admin applications on top of REST services.
+Customized Portuguese translations for [react-admin](https://github.com/marmelab/react-admin), the frontend framework for building admin applications on top of REST services.
+
+This package includes custom translation additions for internal use, based on the original [ra-language-portuguese](https://github.com/henriko202/ra-language-portuguese) by Henriko Alberton.
 
 ## Installation
 
-```sh
-yarn add @henriko/ra-language-portuguese
+```bash
+yarn add @paulocoelho/ra-language-portuguese-pt
 
-#or
+# or
 
-npm install @henriko/ra-language-portuguese
-```
-
-## Usage
-
-```js
-import portugueseMessages from "@henriko/ra-language-portuguese";
-import polyglotI18nProvider from "ra-i18n-polyglot";
-
-const messages = {
-  pt: portugueseMessages,
-};
-
-const i18nProvider = polyglotI18nProvider((locale) => messages[locale], "pt");
-
-<Admin i18nProvider={i18nProvider}>...</Admin>;
-```
-
-This project was forked and adapted from original's [ra-language-portuguese](https://github.com/marquesgabriel/ra-language-portuguese) project.
-
-## License
-
-This translation is licensed under the [MIT Licence](LICENSE)
+npm install @paulocoelho/ra-language-portuguese-pt
