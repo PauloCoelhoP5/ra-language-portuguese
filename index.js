@@ -21,11 +21,11 @@ module.exports = {
             save: "Guardar",
             search: "Procurar",
             select_all: "Selecionar tudo",
-            select_row: "Selecionar esta linha",
+            select_row: "Selecionar linha",
             show: "Mostrar",
             sort: "Ordenar",
             undo: "Desfazer",
-            unselect: "Desselecionar",
+            unselect: "Anular seleção",
             expand: "Expandir",
             close: "Fechar",
             open_menu: "Abrir menu",
@@ -89,7 +89,7 @@ module.exports = {
             delete_content: "Tem a certeza de que pretende eliminar?",
             delete_title: "Eliminar %{name} #%{id}",
             details: "Detalhes",
-            error: "Ocorreu um erro e o seu pedido não pôde ser concluído.",
+            error: "Ocorreu um erro e o seu pedido não foi concluído.",
             invalid_form: "O formulário não é válido. Verifique os erros.",
             loading: "A carregar a página. Por favor, aguarde.",
             no: "Não",
@@ -194,7 +194,3 @@ module.exports = {
         },
     }
 }
-
-
-
-
