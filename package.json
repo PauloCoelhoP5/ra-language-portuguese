@@ -1,7 +1,7 @@
 {
   "name": "@acmp5/ra-language-portuguese-pt",
   "description": "Customized Portuguese translations for react-admin, forked from the original package by Henriko Alberton",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

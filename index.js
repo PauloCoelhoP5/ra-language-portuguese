@@ -116,81 +116,85 @@ module.exports = {
             skip_nav: "Saltar para o conteúdo",
             clear_filters: "Limpar filtros",
             no_filtered_results: "Sem resultados para o filtro atual",
-            sort: {
-                sort_by: "Ordenar por %{field} %{order}",
-                ASC: "crescente",
-                DESC: "decrescente"
+        },
+        sort: {
+            sort_by: "Ordenar por %{field} %{order}",
+            ASC: "crescente",
+            DESC: "decrescente"
+        },
+        auth: {
+            auth_check_error: "Por favor, inicie sessão para continuar",
+            user_menu: "Perfil",
+            username: "Utilizador",
+            password: "Palavra-passe",
+            sign_in: "Entrar",
+            sign_in_error: "Erro de autenticação, tente novamente.",
+            logout: "Sair"
+        },
+        notification: {
+            updated: "Item atualizado com sucesso |||| %{smart_count} itens foram atualizados com sucesso",
+            created: "Item criado com sucesso",
+            deleted: "Item removido com sucesso |||| %{smart_count} itens foram removidos com sucesso",
+            bad_item: "Item inválido",
+            item_doesnt_exist: "Este item já não existe",
+            http_error: "Erro de comunicação com o servidor.",
+            data_provider_error: "Erro do dataProvider, consulte a consola para mais detalhes.",
+            i18n_error: "Não foi possível carregar as traduções para o idioma especificado.",
+            canceled: "Ação cancelada.",
+            logged_out: "A sua sessão terminou. Por favor, inicie sessão novamente.",
+            not_authorized: "Não tem autorização para aceder a este recurso.",
+            application_update_available: "Uma nova versão está disponível."
+        },
+        validation: {
+            required: "Obrigatório",
+            minLength: "Deve ter pelo menos %{min} caracteres",
+            maxLength: "Deve ter no máximo %{max} caracteres",
+            minValue: "Deve ser %{min} ou superior",
+            maxValue: "Deve ser %{max} ou inferior",
+            number: "Deve ser um número",
+            email: "Deve ser um email válido",
+            oneOf: "Deve ser uma das seguintes opções: %{options}",
+            regex: "Deve corresponder ao formato (regexp): %{pattern}"
+        },
+        saved_queries: {
+            label: "Pesquisas guardadas",
+            query_name: "Nome da pesquisa",
+            new_label: "Guardar pesquisa atual...",
+            new_dialog_title: "Guardar pesquisa como",
+            remove_label: "Remover pesquisa guardada",
+            remove_label_with_name: 'Remover pesquisa "%{name}"',
+            remove_dialog_title: "Remover pesquisa guardada?",
+            remove_message: "Tem a certeza de que pretende remover esta pesquisa da sua lista?",
+            help: "Filtre os resultados e guarde esta pesquisa para utilizar mais tarde."
+        },
+        configurable: {
+            customize: "Personalizar",
+            configureMode: "Configurar esta página",
+            Datagrid: {
+                unlabeled: "Coluna sem rótulo #%{column}",
+                title: "#%{title}"
             },
-            auth: {
-                auth_check_error: "Por favor, inicie sessão para continuar",
-                user_menu: "Perfil",
-                username: "Utilizador",
-                password: "Palavra-passe",
-                sign_in: "Entrar",
-                sign_in_error: "Erro de autenticação, tente novamente.",
-                logout: "Sair"
+            inspector: {
+                title: "Inspector",
+                content: "Passe o cursor sobre os elementos da interface para os configurar",
+                reset: "Repor definições",
+                hideAll: "Esconder tudo",
+                showAll: "Mostrar tudo"
             },
-            notification: {
-                updated: "Item atualizado com sucesso |||| %{smart_count} itens foram atualizados com sucesso",
-                created: "Item criado com sucesso",
-                deleted: "Item removido com sucesso |||| %{smart_count} itens foram removidos com sucesso",
-                bad_item: "Item inválido",
-                item_doesnt_exist: "Este item já não existe",
-                http_error: "Erro de comunicação com o servidor.",
-                data_provider_error: "Erro do dataProvider, consulte a consola para mais detalhes.",
-                i18n_error: "Não foi possível carregar as traduções para o idioma especificado.",
-                canceled: "Ação cancelada.",
-                logged_out: "A sua sessão terminou. Por favor, inicie sessão novamente.",
-                not_authorized: "Não tem autorização para aceder a este recurso.",
-                application_update_available: "Uma nova versão está disponível."
+            SimpleList: {
+                primaryText: "Texto principal",
+                secondaryText: "Texto secundário",
+                tertiaryText: "Texto terciário",
+                title: "#%{title}"
             },
-            validation: {
-                required: "Obrigatório",
-                minLength: "Deve ter pelo menos %{min} caracteres",
-                maxLength: "Deve ter no máximo %{max} caracteres",
-                minValue: "Deve ser %{min} ou superior",
-                maxValue: "Deve ser %{max} ou inferior",
-                number: "Deve ser um número",
-                email: "Deve ser um email válido",
-                oneOf: "Deve ser uma das seguintes opções: %{options}",
-                regex: "Deve corresponder ao formato (regexp): %{pattern}"
-            },
-            saved_queries: {
-                label: "Pesquisas guardadas",
-                query_name: "Nome da pesquisa",
-                new_label: "Guardar pesquisa atual...",
-                new_dialog_title: "Guardar pesquisa como",
-                remove_label: "Remover pesquisa guardada",
-                remove_label_with_name: 'Remover pesquisa "%{name}"',
-                remove_dialog_title: "Remover pesquisa guardada?",
-                remove_message: "Tem a certeza de que pretende remover esta pesquisa da sua lista?",
-                help: "Filtre os resultados e guarde esta pesquisa para utilizar mais tarde."
-            },
-            configurable: {
-                customize: "Personalizar",
-                configureMode: "Configurar esta página",
-                Datagrid: {
-                    unlabeled: "Coluna sem rótulo #%{column}",
-                    title: "#%{title}"
-                },
-                inspector: {
-                    title: "Inspector",
-                    content: "Passe o cursor sobre os elementos da interface para os configurar",
-                    reset: "Repor definições",
-                    hideAll: "Esconder tudo",
-                    showAll: "Mostrar tudo"
-                },
-                SimpleList: {
-                    primaryText: "Texto principal",
-                    secondaryText: "Texto secundário",
-                    tertiaryText: "Texto terciário",
-                    title: "#%{title}"
-                },
-                SimpleForm: {
-                    title: "#%{title}",
-                    unlabeled: "Sem rótulo #%{column}"
-                },
+            SimpleForm: {
+                title: "#%{title}",
+                unlabeled: "Sem rótulo #%{column}"
             },
         },
-    },
+    }
 }
+
+
+
+
